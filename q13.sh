@@ -1,9 +1,11 @@
+
+#! /bin/bash
+
 #Write script to print contains of file from given line number to next given number of lines. For e.g. If we called this script as Q13 and run as
 #$ Q13 5 5 myf , Here print contains of 'myf' file from line number 5 to next 5 line of that file.
 
 
 
-#! /bin/bash
 
 if [ $# -eq 0 ] 
 then
