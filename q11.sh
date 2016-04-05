@@ -1,6 +1,8 @@
+#! /bin/bash
+
 #Write script to determine whether given file exist or not, file name is supplied as command line argument, also check for sufficient number of command line argument
 
-#! /bin/bash
+
 
 if [ $# -ne 1 ]
 then
