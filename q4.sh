@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # "Write Script, using case statement to perform basic math operation as
 #follows
 #+ addition
@@ -7,7 +9,7 @@
 #The name of script must be 'q4' which works as follows
 #$ ./q4 20 / 3, Also check for sufficient command line argument"
 
-#! /bin/bash
+
 if [ $# -ne 3 ]
 then
 echo "wrong number of inputs"
