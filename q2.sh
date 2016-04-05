@@ -1,7 +1,9 @@
-# .Write Script to find out biggest number from given three nos. Nos are supplies as command line argument. Print error if sufficient arguments are not supplied.
-
-
 #! /bin/bash
+
+# Write Script to find out biggest number from given three nos. Nos are supplies as command line argument. Print error if sufficient arguments are not supplied.
+
+
+
 if [ $# -ne 3 ]
 then
 echo "wrong number of inputs"
