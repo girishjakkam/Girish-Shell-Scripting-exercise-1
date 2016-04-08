@@ -1,0 +1,10 @@
+#! /bin/bash
+
+
+cat > bill
+{
+total = $3 * $4
+recno = $1
+item = $2
+print recno item " Rs." total
+}
